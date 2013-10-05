@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package _s
+ * @package ElizaGrigg
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -28,8 +28,8 @@
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<h1 class="menu-toggle"><?php _e( 'Menu', '_s' ); ?></h1>
-			<div class="screen-reader-text skip-link"><a href="#content"><?php _e( 'Skip to content', '_s' ); ?></a></div>
+			<h1 class="menu-toggle"><?php _e( 'Menu', 'elizagrigg' ); ?></h1>
+			<div class="screen-reader-text skip-link"><a href="#content"><?php _e( 'Skip to content', 'elizagrigg' ); ?></a></div>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
