@@ -111,9 +111,18 @@ textarea {
 	line-height: 1.5;
 }
 
+footer {
+	font-size: 12px;
+	font-size: 1.2rem;
+}
+
 /* Headings */
 h1, h2, h3, h4, h5, h6 {
 	clear: both;
+}
+h1 {
+	font-size: 20px;
+	font-size: 2rem;
 }
 hr {
 	background-color: #ccc;
@@ -416,6 +425,8 @@ a:active {
 	display: block;
 	float: left;
 	font-family: "Purisa";
+	font-size: 14px;
+	font-size: 1.4rem;
 	width: 100%;
 }
 .main-navigation ul {
