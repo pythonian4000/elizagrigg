@@ -398,6 +398,16 @@ a:active {
 }
 
 
+/* =Header
+----------------------------------------------- */
+
+@media screen and (min-width: 601px) {
+	.site-header {
+		max-width: 170px;
+		position: fixed;
+	}
+}
+
 /* =Menu
 ----------------------------------------------- */
 
@@ -472,6 +482,11 @@ a:active {
 /* =Content
 ----------------------------------------------- */
 
+@media screen and (min-width: 601px) {
+	.content {
+		margin: 0 0 0 170px;
+	}
+}
 .content-area {
 	float: left;
 	margin: 0 -25% 0 0;
