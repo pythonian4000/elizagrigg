@@ -44,8 +44,9 @@
 				#header-image {
 					float: left;
 					margin: 1em auto;
-					width: 100%;
-					height: 200px;
+					width: 90%;
+					max-width: 960px;
+					height: auto;
 				}
 				div.header-image_caption {
 					position: absolute;
