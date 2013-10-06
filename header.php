@@ -66,7 +66,7 @@
 			</style>
 			<noscript>
 				<div id="header-image_nojs">
-					<img id="cimy_img_id" src="" alt="" />
+					<img id="cimy_img_id" src="http://elizagrigg.com/wp-content/Cimy_Header_Images/0/Slide1.jpg" alt="" />
 				</div>
 			</noscript>
 		</div>
