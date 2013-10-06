@@ -489,6 +489,9 @@ a:active {
 	width: 100%;
 	height: auto;
 }
+#header-image:first-child {
+	position: relative !important;
+}
 div.header-image_caption {
 	position: absolute;
 	margin-top: 175px;
