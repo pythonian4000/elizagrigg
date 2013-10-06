@@ -44,8 +44,7 @@
 				#header-image {
 					float: left;
 					margin: 1em auto;
-					border: 1px solid #000000;
-					width: 400px;
+					width: 100%;
 					height: 200px;
 				}
 				div.header-image_caption {
