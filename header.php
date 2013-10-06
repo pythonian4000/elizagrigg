@@ -40,30 +40,6 @@
 		<div id="scroller">
 			<div id="header-image">Loading images...</div>
 			<div class="header-image_caption"></div>
-			<style type="text/css">
-				#header-image {
-					float: left;
-					margin: 1em auto;
-					width: 90%;
-					max-width: 960px;
-					height: auto;
-				}
-				div.header-image_caption {
-					position: absolute;
-					margin-top: 175px;
-					margin-left: -75px;
-					width: 150px;
-					text-align: center;
-					left: 50%;
-					padding: 5px 10px;
-					background: black;
-					color: white;
-					font-family: sans-serif;
-					border-radius: 10px;
-					display: none;
-					z-index: 2;
-				}
-			</style>
 			<noscript>
 				<div id="header-image_nojs">
 					<img id="cimy_img_id" src="http://elizagrigg.com/wp-content/Cimy_Header_Images/0/Slide1.jpg" alt="" />
