@@ -425,6 +425,7 @@ a:active {
 .main-navigation li {
 	float: left;
 	position: relative;
+	width: 100%;
 }
 .main-navigation a {
 	display: block;
