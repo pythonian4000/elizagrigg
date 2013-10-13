@@ -5,7 +5,7 @@ Github Theme URI: https://github.com/pythonian4000/elizagrigg
 Author: Jack Grigg
 Author URI: http://jackgrigg.com/
 Description: Theme for Eliza Grigg's website.
-Version: 0.0.10
+Version: 0.1.0
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ElizaGrigg
@@ -404,6 +404,20 @@ a:active {
 .site-content:after,
 .site-footer:after {
 	clear: both;
+}
+
+/* =Background
+----------------------------------------------- */
+
+body {
+	background: fixed rgb(122,188,255); /* Old browsers */
+	background: fixed -moz-linear-gradient(top,  rgb(122,188,255) 0%, rgb(255,255,255) 40%); /* FF3.6+ */
+	background: fixed -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgb(122,188,255)), color-stop(40%,rgb(255,255,255))); /* Chrome,Safari4+ */
+	background: fixed -webkit-linear-gradient(top,  rgb(122,188,255) 0%,rgb(255,255,255) 40%); /* Chrome10+,Safari5.1+ */
+	background: fixed -o-linear-gradient(top,  rgb(122,188,255) 0%,rgb(255,255,255) 40%); /* Opera 11.10+ */
+	background: fixed -ms-linear-gradient(top,  rgb(122,188,255) 0%,rgb(255,255,255) 40%); /* IE10+ */
+	background: fixed linear-gradient(to bottom,  rgb(122,188,255) 0%,rgb(255,255,255) 40%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#7abcff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */
 }
 
 
