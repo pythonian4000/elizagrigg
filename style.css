@@ -556,7 +556,7 @@ div.header-image_caption {
 .sticky {
 }
 .hentry {
-	margin: 0 0 1.5em;
+	margin: 0 0.5em 1.5em;
 }
 .byline,
 .updated {
@@ -569,7 +569,7 @@ div.header-image_caption {
 .page-content,
 .entry-content,
 .entry-summary {
-	margin: 1.5em 0 0;
+	margin: 1.5em 0 0 0.5em;
 }
 .page-links {
 	clear: both;
