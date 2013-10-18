@@ -558,6 +558,9 @@ div.header-image_caption {
 .hentry {
 	margin: 0 0.5em 1.5em;
 }
+.entry-meta {
+	float: right;
+}
 .byline,
 .updated {
 	display: none;
