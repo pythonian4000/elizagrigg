@@ -425,6 +425,8 @@ a:active {
 
 @media screen and (min-width: 601px) {
 	.site-header {
+		background: rgba(0,0,0,0.1);
+		height: 100%;
 		max-width: 170px;
 		position: fixed;
 	}
@@ -699,6 +701,16 @@ object {
 
 .widget_search .search-field {
 	width: 95%;
+}
+
+
+/* =Footer
+----------------------------------------------- */
+
+@media screen and (min-width: 601px) {
+	.site-footer {
+		margin: 0 0 0 170px;
+	}
 }
 
 
