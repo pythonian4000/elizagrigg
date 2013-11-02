@@ -456,7 +456,10 @@ a:active {
 }
 .main-navigation a {
 	display: block;
+	padding: 0.25em 0.5em 0 0
+	text-align: right;
 	text-decoration: none;
+	width: 100px;
 }
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -477,6 +480,8 @@ a:active {
 .main-navigation ul ul li {
 }
 .main-navigation li:hover > a {
+	background: rgba(0,0,0,0.2);
+	width: 130px;
 }
 .main-navigation ul ul :hover > a {
 }
@@ -487,6 +492,7 @@ a:active {
 }
 .main-navigation li.current_page_item a,
 .main-navigation li.current-menu-item a {
+	width: 130px;
 }
 
 /* Small menu */
