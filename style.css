@@ -5,7 +5,7 @@ Github Theme URI: https://github.com/pythonian4000/elizagrigg
 Author: Jack Grigg
 Author URI: http://jackgrigg.com/
 Description: Theme for Eliza Grigg's website.
-Version: 0.1.8
+Version: 0.1.9
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: ElizaGrigg
@@ -435,6 +435,9 @@ a:active {
 	clip: rect(1px, 1px, 1px, 1px);
 	position: absolute;
 }
+.site-description {
+	text-align: center;
+}
 
 /* =Menu
 ----------------------------------------------- */
@@ -496,6 +499,7 @@ a:active {
 }
 .main-navigation li.current_page_item a,
 .main-navigation li.current-menu-item a {
+	text-decoration: underline;
 	width: 130px;
 }
 
