@@ -572,7 +572,7 @@ div.header-image_caption {
 		width: 25%;
 	}
 	#header-image {
-		width: 90%;
+		width: 100%;
 		max-width: 960px;
 	}
 }
