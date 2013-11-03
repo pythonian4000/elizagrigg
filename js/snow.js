@@ -1,6 +1,6 @@
 jQuery( document ).ready( function ( $ ) {
 	var canvas, context, width, height, x, y, radius = 25, clickX, clickY, drag = false;
-	var total_dots = 150;
+	var total_dots = 30;
 	var fps = 24;
 
 	canvas = $("#canvas")[0];
@@ -24,6 +24,9 @@ jQuery( document ).ready( function ( $ ) {
 	imgs[1] = img2;
 	imgs[2] = img3;
 	var this_dot = {};
+
+	$("#canvas").attr("height", $(".site-header").height());
+	$("#canvas").attr("width", $(".site-header").width());
 
 	for (var i=0; i < total_dots; i++){
 		createDot();
