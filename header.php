@@ -22,7 +22,7 @@
 <div id="page" class="hfeed site">
 	<?php do_action( 'before' ); ?>
 	<header id="masthead" class="site-header" role="banner">
-		<canvas id="canvas" width="170" height="100%"></canvas>
+		<canvas id="canvas"></canvas>
 		<div class="site-branding">
 			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
 			<?php if ( get_header_image() ) : ?>
