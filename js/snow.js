@@ -1,4 +1,4 @@
-$(function () {
+( function () {
 	var canvas, context, width, height, x, y, radius = 25, clickX, clickY, drag = false;
 	var total_dots = 150;
 	var fps = 24;
@@ -24,20 +24,21 @@ $(function () {
 	imgs[1] = img2;
 	imgs[2] = img3;
 	var this_dot = {};
+
 	for (var i=0; i < total_dots; i++){
 		createDot();
 	}
 	function createDot(x, y, r, vx, vy){
 		var this_dot = {
-			x: 		typeof(x) != 'undefined' ? x : Math.random()*canvas.width, 
-			y: 		typeof(y) != 'undefined' ? y : Math.random()*-canvas.height,
+			x: 	typeof(x) != 'undefined' ? x : Math.random()*canvas.width, 
+			y: 	typeof(y) != 'undefined' ? y : Math.random()*-canvas.height,
 			radius: typeof(r) != 'undefined' ? r : 25,
 			scale: 	Math.floor(10 + (1+50-10)*Math.random()),
 			vx: 	typeof(vx) != 'undefined' ? vx : Math.random()*3-1,
 			vy: 	typeof(vy) != 'undefined' ? vy : Math.random()*3,
 			src:	(dots.length % 3) + 1,
-			r:		0,
-			vr:		0
+			r:	0,
+			vr:	0
 		};
 		dots.push(this_dot);
 	}
@@ -67,20 +68,19 @@ $(function () {
 				this_dot.x += this_dot.vx;
 				this_dot.y += this_dot.vy;
 				this_dot.r += this_dot.vr;
-				
-					if (this_dot.x > canvas.width + this_dot.radius){
-							this_dot.x -= canvas.width + this_dot.radius*2;
-							this_dot.vr = 0;
-					}
-					else if(this_dot.x < 0 - this_dot.radius){
-							this_dot.x += canvas.width + this_dot.radius*2;
-							this_dot.vr = 0;
-					}
-					if (this_dot.y > canvas.height + this_dot.radius){
-							this_dot.y -= canvas.height + this_dot.radius*2;
-							this_dot.vr = 0;
-					}
-				
+
+				if (this_dot.x > canvas.width + this_dot.radius){
+					this_dot.x -= canvas.width + this_dot.radius*2;
+					this_dot.vr = 0;
+				}
+				else if(this_dot.x < 0 - this_dot.radius){
+					this_dot.x += canvas.width + this_dot.radius*2;
+					this_dot.vr = 0;
+				}
+				if (this_dot.y > canvas.height + this_dot.radius){
+					this_dot.y -= canvas.height + this_dot.radius*2;
+					this_dot.vr = 0;
+				}
 			}
 		}
 	}
@@ -105,4 +105,4 @@ $(function () {
 		draw();
 	}, 1000/fps);
 
-});
+} )();
