@@ -1,4 +1,4 @@
-( function () {
+jQuery( document ).ready( function ( $ ) {
 	var canvas, context, width, height, x, y, radius = 25, clickX, clickY, drag = false;
 	var total_dots = 150;
 	var fps = 24;
@@ -105,4 +105,4 @@
 		draw();
 	}, 1000/fps);
 
-} )();
+} );
