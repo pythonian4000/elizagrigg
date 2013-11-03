@@ -85,6 +85,10 @@ add_action( 'widgets_init', 'elizagrigg_widgets_init' );
 function elizagrigg_scripts() {
 	wp_enqueue_style( 'elizagrigg-style', get_stylesheet_uri() );
 
+	wp_enqueue_script( 'elizagrigg-snow', get_template_directory_uri() . '/js/snow.js', array( 'jquery' ), '20111209' );
+	$wnm_custom = array( 'template_url' => get_template_directory_uri() );
+	wp_localize_script( 'custom-js', 'wnm_custom', $wnm_custom );
+
 	wp_enqueue_script( 'elizagrigg-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
 
 	wp_enqueue_script( 'elizagrigg-skip-link-focus-fix', get_template_directory_uri() . '/js/skip-link-focus-fix.js', array(), '20130115', true );
