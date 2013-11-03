@@ -28,7 +28,7 @@ jQuery( document ).ready( function ( $ ) {
 	imgs[2] = img3;
 	var this_dot = {};
 
-	$("#canvas").attr("height", $(".site-header").height());
+	$("#canvas").attr("height", $(window).height());
 	$("#canvas").attr("width", $(".site-header").width());
 
 	for (var i=0; i < total_dots; i++){
