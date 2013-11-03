@@ -1,3 +1,6 @@
+/*
+ * http://circlecube.com/2011/12/snow-via-javascript-canvas-tis-the-season/
+ */
 jQuery( document ).ready( function ( $ ) {
 	var canvas, context, width, height, x, y, radius = 25, clickX, clickY, drag = false;
 	var total_dots = 30;
