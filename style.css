@@ -584,6 +584,7 @@ div.header-image_caption {
 .sticky {
 }
 .hentry {
+	border-bottom: 1px solid;
 	margin: 0 0 1.5em;
 }
 .entry-header {
