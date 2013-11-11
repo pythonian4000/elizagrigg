@@ -575,14 +575,23 @@ div.header-image_caption {
 		width: 100%;
 		max-width: 960px;
 	}
+	.entry-header {
+		float: left;
+		margin-right: 0.5em;
+		max-width: 150px;
+	}
 }
 .sticky {
 }
 .hentry {
-	margin: 0 0.5em 1.5em;
+	margin: 0 0 1.5em;
+}
+.entry-header {
+	background: #C8C8C8;
+	padding: 0.5em;
 }
 .entry-meta {
-	float: right;
+	font-size: 1rem;
 }
 .byline,
 .updated {
