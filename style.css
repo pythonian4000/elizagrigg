@@ -589,8 +589,8 @@ div.header-image_caption {
 .entry-meta {
 	font-size: 1rem;
 }
-.byline,
-.updated {
+.entry-meta .byline,
+.entry-meta .updated {
 	display: none;
 }
 .single .byline,
