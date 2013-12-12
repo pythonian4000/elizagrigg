@@ -623,7 +623,7 @@ div.header-image_caption {
 	text-decoration: none;
 }
 .entry-meta {
-	font-size: 1rem;
+	font-size: 1.2rem;
 }
 .entry-meta .byline,
 .entry-meta .updated {
@@ -652,6 +652,8 @@ div.header-image_caption {
 	}
 	.site-content .posted-on a:before {
 		content: '\f303';
+		position: relative;
+		top: 1px;
 	}
 	.site-content .byline a:before {
 		content: '\f304';
