@@ -10,6 +10,8 @@
 
 		<div class="entry-meta">
 			<?php elizagrigg_posted_on(); ?>
+
+			<?php edit_post_link( __( 'Edit', 'elizagrigg' ), '<span class="edit-link">', '</span>' ); ?>
 		</div><!-- .entry-meta -->
 	</header><!-- .entry-header -->
 
@@ -56,7 +58,5 @@
 				get_permalink()
 			);
 		?>
-
-		<?php edit_post_link( __( 'Edit', 'elizagrigg' ), '<span class="edit-link">', '</span>' ); ?>
 	</footer><!-- .entry-meta -->
 </article><!-- #post-## -->
