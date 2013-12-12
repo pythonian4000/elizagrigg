@@ -326,6 +326,7 @@ textarea {
 /* Links */
 a {
 	color: royalblue;
+	text-decoration: none;
 }
 a:visited {
 	color: purple;
