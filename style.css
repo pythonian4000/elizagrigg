@@ -605,6 +605,7 @@ div.header-image_caption {
 }
 .entry-header {
 	background: #C8C8C8;
+	margin-bottom: 0.5em;
 	padding: 0.5em;
 	position: relative
 }
