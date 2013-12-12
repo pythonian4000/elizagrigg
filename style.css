@@ -406,6 +406,22 @@ a:active {
 	clear: both;
 }
 
+/* Genericons */
+.bypostauthor > article .fn:before,
+.comment-edit-link:before,
+.comment-reply-link:before,
+.comment-reply-login:before,
+.comment-reply-title small a:before,
+.contributor-posts-link:before,
+.menu-toggle:before,
+.search-toggle:before {
+        -webkit-font-smoothing: antialiased;
+        display: inline-block;
+        font: normal 16px/1 Genericons;
+        text-decoration: inherit;
+        vertical-align: text-bottom;
+}
+
 /* =Background
 ----------------------------------------------- */
 
@@ -611,6 +627,36 @@ div.header-image_caption {
 .single .byline,
 .group-blog .byline {
 	display: inline;
+}
+@media screen and (min-width: 401px) {
+	.attachment span.entry-date:before,
+	.entry-content .edit-link a:before,
+	.entry-meta .edit-link a:before,
+	.site-content .byline a:before,
+	.site-content .comments-link a:before,
+	.site-content .entry-date a:before,
+	.site-content .featured-post:before,
+	.site-content .full-size-link a:before,
+	.site-content .parent-post-link a:before,
+	.site-content .post-format a:before {
+		-webkit-font-smoothing: antialiased;
+		display: inline-block;
+		font: normal 16px/1 Genericons;
+		text-decoration: inherit;
+		vertical-align: text-bottom;
+	}
+	.site-content .entry-date a:before {
+		content: '\f303';
+	}
+	.site-content .byline a:before {
+		content: '\f304';
+	}
+	.site-content .comments-link a:before {
+		content: '\f300';
+	}
+	.entry-content .edit-link a:before, .entry-meta .edit-link a:before {
+		content: '\f411';
+	}
 }
 .page-content,
 .entry-content,
