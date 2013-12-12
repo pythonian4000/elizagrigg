@@ -84,7 +84,7 @@ add_action( 'widgets_init', 'elizagrigg_widgets_init' );
  */
 function elizagrigg_scripts() {
 	// Add Genericons font, used in the main stylesheet.
-	wp_enqueue_style( 'genericons', get_template_directory_uri() . 'genericons/genericons.css', array(), '3.0.2' );
+	wp_enqueue_style( 'genericons', get_template_directory_uri() . '/genericons/genericons.css', array(), '3.0.2' );
 
 	// Load our main stylesheet.
 	wp_enqueue_style( 'elizagrigg-style', get_stylesheet_uri(), array('genericons') );
