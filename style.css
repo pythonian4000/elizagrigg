@@ -597,7 +597,7 @@ div.header-image_caption {
 	top: 100%;
 	width: calc(100% - 10px);
 }
-.entry-header .entry-title a {
+.entry-header .entry-title, .entry-header .entry-title a {
 	font-family: Purisa,"Maiandra GD";
 	text-decoration: none;
 }
