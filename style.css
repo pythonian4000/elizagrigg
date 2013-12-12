@@ -585,6 +585,21 @@ div.header-image_caption {
 .entry-header {
 	background: #C8C8C8;
 	padding: 0.5em;
+	position: relative
+}
+.entry-header:after {
+	border-right: 10px solid rgba(0,0,0,0);
+	border-top: 5px solid #000000;
+	content: "";
+	height: 0;
+	left: 0;
+	position: absolute;
+	top: 100%;
+	width: calc(100% - 10px);
+}
+.entry-header .entry-title a {
+	font-family: Purisa,"Maiandra GD";
+	text-decoration: none;
 }
 .entry-meta {
 	font-size: 1rem;
