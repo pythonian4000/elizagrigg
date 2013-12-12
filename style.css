@@ -744,6 +744,15 @@ object {
 	width: 95%;
 }
 
+/* Events widget */
+.tribe-events-widget-link:before {
+	content: "»";
+}
+.tribe-events-widget-link {
+	margin-bottom: 0;
+	text-align: right;
+}
+
 
 /* =Footer
 ----------------------------------------------- */
