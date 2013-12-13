@@ -449,7 +449,9 @@ a:active {
 	}
 }
 .site-description {
+	font-style: italic;
 	text-align: center;
+	text-transform: uppercase;
 }
 #canvas {
 	overflow: hidden;
