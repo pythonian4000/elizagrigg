@@ -620,6 +620,12 @@ div.header-image_caption {
 		clear: left;
 		float: left;
 	}
+	.page-content,
+	.entry-content,
+	.entry-summary {
+		clear: none;
+		padding-top: 0;
+	}
 }
 .sticky {
 }
