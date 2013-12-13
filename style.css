@@ -835,6 +835,16 @@ object {
 }
 
 /* Events widget */
+.tribe-events-list-widget .duration:before {
+	content: '\f307';
+	font: 20px/1 Genericons;
+	left: 4px;
+	position: relative;
+	top: 4px;
+}
+.tribe-events-list-widget .duration {
+	margin-left: -25px;
+}
 .tribe-events-widget-link:before {
 	content: "»";
 }
