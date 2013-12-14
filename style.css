@@ -819,7 +819,10 @@ object {
 	margin: 0.5em;
 	padding: 0.5em;
 }
-
+.widget-title {
+	font-style: italic;
+	text-transform: uppercase;
+}
 .widget ul {
 	margin-bottom: 0.5em;
 }
