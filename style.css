@@ -582,7 +582,7 @@ div.header-image_caption {
 }
 .entry-header:after {
 	border-right: 10px solid rgba(0,0,0,0);
-	border-top: 5px solid #000000;
+	border-top: 5px solid #808080;
 	content: "";
 	height: 0;
 	left: 0;
