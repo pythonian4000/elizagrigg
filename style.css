@@ -440,7 +440,7 @@ a:active {
 
 @media screen and (min-width: 601px) {
 	.site-header {
-		background: rgba(0,0,0,0.1);
+		//background: rgba(0,0,0,0.1);
 		height: 100%;
 		max-width: 170px;
 		position: fixed;
@@ -661,6 +661,10 @@ div.header-image_caption {
 		width: 100%;
 	}
 	.site-main {
+		-moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), 0 1px rgba(255,255,255,0.3) inset, 0 10px 20px rgba(255,255,255,0.25) inset, 0 -2px 0 rgba(0,0,0,0.3) inset;
+		-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), 0 1px rgba(255,255,255,0.3) inset, 0 10px 20px rgba(255,255,255,0.25) inset, 0 -2px 0 rgba(0,0,0,0.3) inset;
+		-o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), 0 1px rgba(255,255,255,0.3) inset, 0 10px 20px rgba(255,255,255,0.25) inset, 0 -2px 0 rgba(0,0,0,0.3) inset;
+		box-shadow: 0 2px 6px rgba(0,0,0,0.5), 0 1px rgba(255,255,255,0.3) inset, 0 10px 20px rgba(255,255,255,0.25) inset, 0 -2px 0 rgba(0,0,0,0.3) inset;
 		margin: 0 200px 0 0;
 	}
 	.site-content .widget-area {
@@ -818,7 +822,7 @@ object {
 ----------------------------------------------- */
 
 .widget {
-	border-radius: 10px;
+	//border-radius: 10px;
 	-moz-box-shadow: 0 2px 6px rgba(0,0,0,0.5), 0 1px rgba(255,255,255,0.3) inset, 0 10px 20px rgba(255,255,255,0.25) inset, 0 -2px 0 rgba(0,0,0,0.3) inset;
 	-webkit-box-shadow: 0 2px 6px rgba(0,0,0,0.5), 0 1px rgba(255,255,255,0.3) inset, 0 10px 20px rgba(255,255,255,0.25) inset, 0 -2px 0 rgba(0,0,0,0.3) inset;
 	-o-box-shadow: 0 2px 6px rgba(0,0,0,0.5), 0 1px rgba(255,255,255,0.3) inset, 0 10px 20px rgba(255,255,255,0.25) inset, 0 -2px 0 rgba(0,0,0,0.3) inset;
