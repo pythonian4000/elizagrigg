@@ -3,7 +3,7 @@
  */
 jQuery( document ).ready( function ( $ ) {
 	var canvas, context, width, height, x, y, radius = 25, clickX, clickY, drag = false;
-	var total_dots = 5;
+	var total_dots = 30;
 	var fps = 24;
 
 	canvas = $("#canvas")[0];
