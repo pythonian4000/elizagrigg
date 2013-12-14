@@ -696,23 +696,18 @@ div.header-image_caption {
 		width: 250px;
 	}
 	.entry-header {
-		margin-right: 0.5em;
-		max-width: 150px;
-	}/*
-	.entry-meta span {
-		clear: left;
-		float: left;
-	}*/
+		max-width: 270px;
+	}
 	.page-content,
 	.entry-content,
 	.entry-summary {
 		clear: none;
 		padding-top: 0;
-	}/*
+	}
 	.entry-content p:first-child,
 	.entry-content p:first-of-type {
 		clear: left;
-	}*/
+	}
 	ul, ol {
 		margin-left: 3em;
 	}
