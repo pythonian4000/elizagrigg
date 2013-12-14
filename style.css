@@ -517,8 +517,9 @@ a:active {
 }
 .main-navigation li.current_page_item a,
 .main-navigation li.current-menu-item a {
+	background: #C8C8C8;
 	border-right: none;
-	text-decoration: underline;
+	font-weight: bold;
 	width: 130px;
 }
 
