@@ -742,6 +742,8 @@ div.header-image_caption {
 	max-width: 98%;
 }
 .wp-caption-text {
+	font-size: 1.2rem;
+	font-style: italic;
 	text-align: center;
 }
 .wp-caption .wp-caption-text {
