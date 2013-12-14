@@ -547,7 +547,8 @@ a:active {
 
 #header-image {
 	width: 100%;
-	max-height: 300px;
+	height: auto;
+	//max-height: 300px;
 	max-width: 960px;
 }
 #header-image img:first-child {
