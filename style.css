@@ -588,6 +588,7 @@ div.header-image_caption {
 	left: 0;
 	position: absolute;
 	top: 100%;
+	width: 95%;
 	width: calc(100% - 10px);
 }
 .entry-header .entry-title, .entry-header .entry-title a {
@@ -665,6 +666,7 @@ div.header-image_caption {
 	}
 	.entry-header {
 		float: left;
+		width: 92%
 		width: calc(100% - 10px - 0.5em)
 	}
 	.page-content,
