@@ -8,8 +8,6 @@
  */
 ?>
 
-	</div><!-- #content -->
-
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="site-info">
 			<?php do_action( 'elizagrigg_credits' ); ?>
@@ -18,6 +16,8 @@
 			<?php printf( __( 'Theme: %1$s by %2$s.', 'elizagrigg' ), 'elizagrigg', '<a href="http://jackgrigg.com/" rel="designer">Jack Grigg</a>' ); ?>
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
+
+	</div><!-- #content -->
 </div><!-- #page -->
 
 <?php wp_footer(); ?>

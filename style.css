@@ -657,6 +657,7 @@ div.header-image_caption {
 }
 @media screen and (min-width: 601px) {
 	.site-content {
+		box-shadow: 0 2px 6px rgba(0,0,0,0.5);
 		margin: 0 0 0 170px;
 	}
 	.content-area {
