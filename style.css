@@ -547,7 +547,8 @@ a:active {
 
 #header-image {
 	width: 100%;
-	height: auto;
+	max-height: 300px;
+	max-width: 960px;
 }
 #header-image img:first-child {
 	position: relative !important;
@@ -661,10 +662,6 @@ div.header-image_caption {
 		float: right;
 		overflow: hidden;
 		width: 200px;
-	}
-	#header-image {
-		width: 100%;
-		max-width: 960px;
 	}
 	.entry-header {
 		float: left;
