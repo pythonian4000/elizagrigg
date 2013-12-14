@@ -338,6 +338,7 @@ a:active {
 .alignleft {
 	display: inline;
 	float: left;
+	margin-left: -0.5em;
 	margin-right: 1.5em;
 }
 .alignright {
