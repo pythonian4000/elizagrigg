@@ -7,6 +7,10 @@ jQuery( document ).ready( function ( $ ) {
 	var fps = 24;
 
 	canvas = $("#canvas")[0];
+	if (typeof canvas === 'undefined'){
+		return;
+	}
+
 	context = canvas.getContext("2d");
  	var dots = new Array();
 	var drag_i = -1;
