@@ -275,7 +275,7 @@ textarea {
 
 footer {
 	font-size: 12px;
-	font-size: 1.2rem;
+	font-size: 0.75rem;
 }
 
 h1,
@@ -287,9 +287,16 @@ h6 {
 	clear: both;
 }
 
-h1 {
+h2 {
 	font-size: 20px;
-	font-size: 2rem;
+	font-size: 1.25rem;
+	font-weight: inherit;
+	margin: 0;
+}
+
+h4 {
+	font-weight: inherit;
+	margin: 0;
 }
 
 p {
@@ -397,6 +404,7 @@ hr {
 ul,
 ol {
 	margin: 0 0 1.5em 3em;
+	padding: 0;
 }
 
 ul {
@@ -510,7 +518,9 @@ textarea {
 }
 
 select {
+/*
 	border: 1px solid #ccc;
+*/
 }
 
 input[type="text"]:focus,
@@ -598,7 +608,7 @@ a:active {
 	float: left;
 	font-family: Purisa,"Maiandra GD";
 	font-size: 14px;
-	font-size: 1.4rem;
+	font-size: 0.875rem;
 	width: 100%;
 }
 
@@ -920,7 +930,7 @@ div.header-image_caption {
 	text-decoration: none;
 }
 .entry-meta {
-	font-size: 1.2rem;
+	font-size: 0.75rem;
 }
 .entry-meta span {
 	display: inline-block;
