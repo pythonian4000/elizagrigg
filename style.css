@@ -5,7 +5,7 @@ Github Theme URI: https://github.com/pythonian4000/snowglass
 Author: Jack Grigg
 Author URI: https://jackgrigg.com/
 Description: Theme for Eliza Grigg's website.
-Version: 0.3.11
+Version: 0.4
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain: snowglass
@@ -114,7 +114,9 @@ dfn {
 
 h1 {
 	font-size: 2em;
+	font-style: italic;
 	margin: 0.67em 0;
+	text-align: center;
 }
 
 mark {
