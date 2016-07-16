@@ -4,7 +4,7 @@
  *
  * Displays all of the <head> section and everything up till <div id="content">
  *
- * @package ElizaGrigg
+ * @package Snowglass
  */
 ?><!DOCTYPE html>
 <html <?php language_attributes(); ?>>
@@ -35,8 +35,8 @@
 		</div>
 
 		<nav id="site-navigation" class="main-navigation" role="navigation">
-			<h1 class="menu-toggle"><?php _e( 'Menu', 'elizagrigg' ); ?></h1>
-			<div class="screen-reader-text skip-link"><a href="#content"><?php _e( 'Skip to content', 'elizagrigg' ); ?></a></div>
+			<h1 class="menu-toggle"><?php _e( 'Menu', 'snowglass' ); ?></h1>
+			<div class="screen-reader-text skip-link"><a href="#content"><?php _e( 'Skip to content', 'snowglass' ); ?></a></div>
 
 			<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		</nav><!-- #site-navigation -->
@@ -49,7 +49,7 @@
 			<div class="header-image_caption"></div>
 			<noscript>
 				<div id="header-image_nojs">
-					<img id="cimy_img_id" src="http://elizagrigg.com/wp-content/Cimy_Header_Images/0/Slide1.jpg" alt="" />
+					<img id="cimy_img_id" src="http://snowglass.com/wp-content/Cimy_Header_Images/0/Slide1.jpg" alt="" />
 				</div>
 			</noscript>
 		</div>

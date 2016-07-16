@@ -2,7 +2,7 @@
 /**
  * WordPress.com-specific functions and definitions
  *
- * @package ElizaGrigg
+ * @package Snowglass
  */
 
 global $themecolors;

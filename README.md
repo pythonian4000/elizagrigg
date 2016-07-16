@@ -1,4 +1,4 @@
-ElizaGrigg
+Snowglass
 ===
 
 This theme is based on a starter theme called `_s`, or `underscores`, if you like. Here are some of the other more interesting things you'll find here:

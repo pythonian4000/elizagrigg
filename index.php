@@ -8,7 +8,7 @@
  * E.g., it puts together the home page when no home.php file exists.
  * Learn more: http://codex.wordpress.org/Template_Hierarchy
  *
- * @package ElizaGrigg
+ * @package Snowglass
  */
 
 get_header(); ?>
@@ -31,7 +31,7 @@ get_header(); ?>
 
 			<?php endwhile; ?>
 
-			<?php elizagrigg_content_nav( 'nav-below' ); ?>
+			<?php snowglass_content_nav( 'nav-below' ); ?>
 
 		<?php else : ?>
 

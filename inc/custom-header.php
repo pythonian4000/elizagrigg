@@ -12,39 +12,39 @@
 	<?php endif; // End header image check. ?>
 
  *
- * @package ElizaGrigg
+ * @package Snowglass
  */
 
 /**
  * Setup the WordPress core custom header feature.
  *
- * @uses elizagrigg_header_style()
- * @uses elizagrigg_admin_header_style()
- * @uses elizagrigg_admin_header_image()
+ * @uses snowglass_header_style()
+ * @uses snowglass_admin_header_style()
+ * @uses snowglass_admin_header_image()
  *
- * @package ElizaGrigg
+ * @package Snowglass
  */
-function elizagrigg_custom_header_setup() {
-	add_theme_support( 'custom-header', apply_filters( 'elizagrigg_custom_header_args', array(
+function snowglass_custom_header_setup() {
+	add_theme_support( 'custom-header', apply_filters( 'snowglass_custom_header_args', array(
 		'default-image'          => '',
 		'default-text-color'     => '000',
 		'width'                  => 1000,
 		'height'                 => 250,
 		'flex-height'            => true,
-		'wp-head-callback'       => 'elizagrigg_header_style',
-		'admin-head-callback'    => 'elizagrigg_admin_header_style',
-		'admin-preview-callback' => 'elizagrigg_admin_header_image',
+		'wp-head-callback'       => 'snowglass_header_style',
+		'admin-head-callback'    => 'snowglass_admin_header_style',
+		'admin-preview-callback' => 'snowglass_admin_header_image',
 	) ) );
 }
-add_action( 'after_setup_theme', 'elizagrigg_custom_header_setup' );
+add_action( 'after_setup_theme', 'snowglass_custom_header_setup' );
 
-if ( ! function_exists( 'elizagrigg_header_style' ) ) :
+if ( ! function_exists( 'snowglass_header_style' ) ) :
 /**
  * Styles the header image and text displayed on the blog
  *
- * @see elizagrigg_custom_header_setup().
+ * @see snowglass_custom_header_setup().
  */
-function elizagrigg_header_style() {
+function snowglass_header_style() {
 	$header_text_color = get_header_textcolor();
 
 	// If no custom options for text are set, let's bail
@@ -76,15 +76,15 @@ function elizagrigg_header_style() {
 	</style>
 	<?php
 }
-endif; // elizagrigg_header_style
+endif; // snowglass_header_style
 
-if ( ! function_exists( 'elizagrigg_admin_header_style' ) ) :
+if ( ! function_exists( 'snowglass_admin_header_style' ) ) :
 /**
  * Styles the header image displayed on the Appearance > Header admin panel.
  *
- * @see elizagrigg_custom_header_setup().
+ * @see snowglass_custom_header_setup().
  */
-function elizagrigg_admin_header_style() {
+function snowglass_admin_header_style() {
 ?>
 	<style type="text/css">
 		.appearance_page_custom-header #headimg {
@@ -104,15 +104,15 @@ function elizagrigg_admin_header_style() {
 	</style>
 <?php
 }
-endif; // elizagrigg_admin_header_style
+endif; // snowglass_admin_header_style
 
-if ( ! function_exists( 'elizagrigg_admin_header_image' ) ) :
+if ( ! function_exists( 'snowglass_admin_header_image' ) ) :
 /**
  * Custom header image markup displayed on the Appearance > Header admin panel.
  *
- * @see elizagrigg_custom_header_setup().
+ * @see snowglass_custom_header_setup().
  */
-function elizagrigg_admin_header_image() {
+function snowglass_admin_header_image() {
 	$style = sprintf( ' style="color:#%s;"', get_header_textcolor() );
 ?>
 	<div id="headimg">
@@ -124,4 +124,4 @@ function elizagrigg_admin_header_image() {
 	</div>
 <?php
 }
-endif; // elizagrigg_admin_header_image
+endif; // snowglass_admin_header_image
