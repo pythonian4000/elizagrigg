@@ -996,6 +996,9 @@ div.header-image_caption {
 		box-shadow: 0 2px 6px rgba(0,0,0,0.5);
 		margin: 0 0 0 170px;
 	}
+	.site-content #scroller {
+		margin-right: 200px;
+	}
 	.content-area {
 		float: left;
 		margin: 0 -200px 0 0;
@@ -1005,9 +1008,14 @@ div.header-image_caption {
 		margin: 0 200px 0 0;
 	}
 	.site-content .widget-area {
-		float: right;
 		overflow: hidden;
+		position: absolute;
+		right: 0;
+		top: 0;
 		width: 200px;
+	}
+	.logged-in .site-content .widget-area {
+		top: 32px;
 	}
 	.entry-header {
 		float: left;
@@ -1027,6 +1035,9 @@ div.header-image_caption {
 	}
 }
 @media screen and (min-width: 810px) {
+	.site-content #scroller {
+		margin-right: 250px;
+	}
 	.content-area {
 		margin-right: -250px;
 	}
