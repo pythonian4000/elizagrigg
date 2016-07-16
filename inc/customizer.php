@@ -1,6 +1,6 @@
 <?php
 /**
- * Snowglass Theme Customizer
+ * Snowglass Theme Customizer.
  *
  * @package Snowglass
  */
@@ -21,6 +21,6 @@ add_action( 'customize_register', 'snowglass_customize_register' );
  * Binds JS handlers to make Theme Customizer preview reload changes asynchronously.
  */
 function snowglass_customize_preview_js() {
-	wp_enqueue_script( 'snowglass_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20130508', true );
+	wp_enqueue_script( 'snowglass_customizer', get_template_directory_uri() . '/js/customizer.js', array( 'customize-preview' ), '20151215', true );
 }
 add_action( 'customize_preview_init', 'snowglass_customize_preview_js' );
