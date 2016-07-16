@@ -62,7 +62,7 @@
 			<div class="header-image_caption"></div>
 			<noscript>
 				<div id="header-image_nojs">
-					<img id="cimy_img_id" src="http://snowglass.com/wp-content/Cimy_Header_Images/0/Slide1.jpg" alt="" />
+					<img id="cimy_img_id" src="https://elizagrigg.com/wp-content/Cimy_Header_Images/0/Slide1.jpg" alt="" />
 				</div>
 			</noscript>
 		</div>
