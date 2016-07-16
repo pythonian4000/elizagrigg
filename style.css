@@ -964,7 +964,7 @@ div.header-image_caption {
 @media screen and (min-width: 401px) {
 	.attachment span.entry-date:before,
 	.entry-content .edit-link a:before,
-	.entry-meta .edit-link a:before,
+	.entry-footer .edit-link a:before,
 	.site-content .byline a:before,
 	.site-content .comments-link a:before,
 	.site-content .featured-post:before,
@@ -989,7 +989,7 @@ div.header-image_caption {
 	.site-content .comments-link a:before {
 		content: '\f300';
 	}
-	.entry-content .edit-link a:before, .entry-meta .edit-link a:before {
+	.entry-content .edit-link a:before, .entry-footer .edit-link a:before {
 		content: '\f411';
 	}
 }
